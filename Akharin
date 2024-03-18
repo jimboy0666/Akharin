@@ -21,5 +21,4 @@ contract TokenCorrect is Token {
         require(balance[msg.sender] >= _amt);
         balance[msg.sender] -= _amt;
 
-contract Test {
-    function property_transfer(address _token, address _to, uint _amt) public {
+contract Test 
