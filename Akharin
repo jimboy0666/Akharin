@@ -4,9 +4,6 @@ for github
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.0;
 
-interface Token {
-    function balanceOf(address _a) external view returns (uint);
-   
 
 contract TokenCorrect is Token {
     mapping (address => uint) balance;
